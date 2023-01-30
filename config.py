@@ -1,0 +1,10 @@
+PLATE_WEIGHTS = './models/plate_best.pt'
+PLATE_YAML = './models/plate.yaml'
+OBJECT_NAMES = ['plate']
+
+DETECT_CONFIDENCE = 0.5
+DETECT_IOU = 0.45
+IMG_SIZE = 640
+NMS_TRESHOLD = 0.50
+DRAW_BOXES = True
+SAVE_DRAW_NEGATIVES = True
